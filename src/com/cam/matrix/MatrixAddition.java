@@ -2,7 +2,7 @@ package com.cam.matrix;
 
 import java.util.Scanner;
 
-public class MatrixDemo {
+public class MatrixAddition {
     public static void print(int [][]a){
         for(int i=0;i<2;i++){
             for(int j=0;j<2;j++){
@@ -22,9 +22,9 @@ public class MatrixDemo {
     }
 
     public static void main(String args[]) {
-        int a[][] = new int[2][2];
-        int b[][] = new int[2][2];
-        int c[][] = new int[2][2];
+        int a[][] = new int[10][10];
+        int b[][] = new int[10][10];
+        int c[][] = new int[10][10];
         System.out.println("Enter Data in Matrix a");
         readD(a);
 
@@ -47,5 +47,12 @@ public class MatrixDemo {
 
         System.out.println("Sum of two matrices (A and B)");
         print(c);
+    }
+    private class TrieNode{
+        private TrieNode[] children = null;
+        private boolean isLeafNode = false;
+        public TrieNode(){
+            children = new TrieNode[26];
+        }
     }
 }
