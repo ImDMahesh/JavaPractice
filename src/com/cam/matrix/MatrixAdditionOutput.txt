@@ -1,0 +1,23 @@
+Enter Data in Matrix a
+1
+2
+3
+4
+Enter Data in Matrix b
+1
+2
+3
+4
+Elements on Matrix A are
+ 1 2
+ 3 4
+Elements on Matrix B are
+ 1 2
+ 3 4
+
+
+Sum of two matrices (A and B)
+ 2 4
+ 6 8
+
+Process finished with exit code 0
